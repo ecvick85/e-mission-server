@@ -1,0 +1,134 @@
+{
+    "test_name": "Illinois Institute of Art -> Goddess and the Baker",
+    "test_type": "From Chicago-based Illinois Institute of Art to a Cafe",
+    "input": {
+        "start_loc": {
+            "coordinates": [-87.6266294, 41.8854453],
+            "type": "Point"
+        },
+        "end_business_id": "goddess-and-the-baker-chicago"
+        
+    },
+    "output": "argo-tea-chicago-28"
+},
+
+{
+    "test_name": "Wood Oaks Junior High School -> California Pizza Kitchen",
+    "test_type": "From a middle school to California Pizza Kitchen in a Shopping Mall",
+    "input": {
+        "start_loc": {
+            "coordinates": [-87.8807004, 42.1289512],
+            "type": "Point"
+        },
+        "end_business_id": "california-pizza-kitchen-at-northbrook-court-northbrook-3"
+        
+    
+    },
+    "output": "butterfields-pancake-house-and-restaurant-northbrook"
+},
+
+{
+    "test_name": "Davis CTA Station -> Lou Malnati's",
+    "test_type": "From a CTA Station to the best deep dish restaurant in the Chicagoland area",
+    "input": {
+        "start_loc": {
+            "coordinates": [-87.6834458, 42.0478385],
+            "type": "Point"
+        },
+        "end_business_id": "lou-malnatis-pizzeria-evanston-2"
+        
+    
+    },
+    "output": "papa-johns-pizza-evanston-2"
+},
+
+{
+    "test_name": "CVS Pharmacy -> Bangers and Lace",
+    "test_type": "From CVS Pharmacy to a bar",
+    "input": {
+        "start_loc": {
+            "coordinates": [-87.6815653, 42.0489605],
+            "type": "Point"
+        },
+        "end_business_id": "bangers-and-lace-evanston-evanston-3"
+    },
+    "output": "celtic-knot-public-house-evanston"
+},
+
+{
+    "test_name": "Gioradano's -> Jimmy John's",
+    "test_type": "From a pizza place to a bus stop in Evanston near Northwestern's campus",
+    "input": {
+        "start_loc": {
+            "coordinates": [-87.6795324, 42.0460200],
+            "type": "Point"
+        },
+        "end_business_id": "jimmy-johns-evanston"
+    },
+    "output": "patisserie-coralie-evanston"
+},
+
+{
+    "test_name": "Apartment Building -> LA Fitness",
+    "test_type": "From a randomly chosen apartment to an LA Fitness in downtown Evanston",
+    "input": {
+        "start_loc": {
+            "coordinates": [-87.6823290, 42.0498415],
+            "type": "Point"
+        },
+        "end_business_id" : "la-fitness-evanston"
+    },
+    "output": "evanston-athletic-club-evanston"
+},
+
+{
+    "test_name": "Walgreens -> Potbelly's Sandwich Shop",
+    "test_type": "From a pharmacy to one of the best fast food sandwich shops out there",
+    "input": {
+        "start_loc": {
+            "coordinates": [-87.6247427, 41.8830264],
+            "type": "Point"
+        },
+        "end_business_id": "potbelly-sandwich-shop-chicago-3"
+    },
+    "output": "subway-chicago"
+},
+
+{
+    "test_name": "Chicago Architecture Foundation -> Chase Bank Northbrook",
+    "test_type": "From an architecture foundation in downtown Chicago to a Chase in the north suburbs",
+    "input": {
+        "start_loc": {
+            "coordinates": [-87.6247942, 41.8784582],
+            "type": "Point"
+        },
+        "end_business_id" : "chase-bank-northbrook-2"
+    },
+    "output": "pnc-bank-chicago-46"
+},
+
+{
+    "test_name": "Chase Bank Northbrook -> Trader Joe's in Lincoln Park",
+    "test_type": "From a Chase Bank in the North Suburbs to a grocery store in Chicago",
+    "input": {
+        "start_loc": {
+            "coordinates": [-87.8264886, 42.1307608],
+            "type": "Point"
+        },
+        "end_business_id": "trader-joes-chicago-5"
+    },
+    "output": "sunset-foods-northbrook"
+},
+
+{
+    "test_name": "Trader Joe's in Lincoln Park -> The end of my cul-de-sac in Northbrook",
+    "test_type": "From a Trader Joe's in Chicago to near my home",
+    "input": {
+        "start_loc": {
+            "coordinates": [-87.6549993, 41.9145533],
+            "type": "Point"
+        },
+        "end_loc": ""
+    },
+    "output": ""
+}

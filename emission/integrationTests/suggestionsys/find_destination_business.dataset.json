@@ -19,7 +19,7 @@
                 "type": "Point"
             }
         },
-        "output": ["Kettle", "Kettle Manhattan Beach"]
+        "output": ["Kettle", "The Kettle Manhattan Beach"]
     },
     {
         "test_name": "Manhattan Beach Beckers",
@@ -30,19 +30,19 @@
                 "type": "Point"
             }
         },
-        "output": ["Becker's Bakery and Deli", "Becker's Manhattan Beach"]
+        "output": ["Becker's Bakery and Deli", "Becker's Bakery Manhattan Beach"]
     },
 
     {
-        "test_name": "Manhattan Beach FISHBAR", 
+        "test_name": "Manhattan Beach FISHBAR",
         "test_type": "Suburban local bar/restaurant, non-chain",
         "input": {
             "loc": {
-                "coordinates": [-118.4182952, 33.9017119], 
+                "coordinates": [-118.4182952, 33.9017119],
                 "type": "Point"
             }
         },
-        "output": ["FISHBAR", "FISHBAR Manhattan Beach"]
+        "output": ["FISHBAR", "Fishbar Manhattan Beach 2"]
     },
 
     {
@@ -54,7 +54,7 @@
                 "type": "Point"
             }
         },
-        "output": ["Umi", "Umi Los Angeles"]
+        "output": ["Umi", "Umi by Hamasuku El Segundo"]
     },
 
     {
@@ -66,7 +66,7 @@
                 "type": "Point"
             }
         },
-        "output": ["Captain Kidd’s Fish Market", "North Harbor Drive", "Redondo Beach", true]
+        "output": ["Captain Kidd’s Fish Market", "Captain Kidd’s Redondo Beach 4", "Captain Kidd's Fish Market & Restaurant"]
     },
 
      {
@@ -78,7 +78,7 @@
                 "type": "Point"
             }
         },
-        "output": ["Mira Costa High School", "Artesia Boulevard", "Manhattan Beach", true]
+        "output": ["Mira Costa High School", "Mira Costa High School Manhattan Beach"]
     },
 
     {
@@ -90,7 +90,7 @@
                 "type": "Point"
             }
         },
-        "output": ["El Segundo High School", "Main Street", "El Segundo", true]
+        "output": ["El Segundo High School", "El Segundo High School El Segundo"]
     },
 
      {
@@ -102,7 +102,7 @@
                 "type": "Point"
             }
         },
-        "output": ["Black Bear Diner", "Hawthorne Boulevard", "Torrance", true]
+        "output": ["Black Bear Diner", "Black Bear Diner Torrance", "Torrance Black Bear Diner"]
     },
 
      {
@@ -114,7 +114,7 @@
                 "type": "Point"
             }
         },
-        "output": ["In-N-Out Burger", "West Century Boulevard", "Inglewood", true]
+        "output": ["In-N-Out Burger", "In-N-Out Burger Inglewood"]
     },
 
     {
@@ -126,8 +126,8 @@
                 "type": "Point"
             }
         },
-        "output": ["Torrance Memorial Medical Center", "Lomita Boulevard", "Torrance", true]
-    }, 
+        "output": ["Torrance Memorial Medical Center", "Torrance Memorial Medical Center Torrance", "Surgery Center of South Bay"]
+    },
     {
         "test_name": "Walmart Supercenter",
         "test_type": "Suburban big box store by itself in a plaza",
@@ -137,9 +137,9 @@
                 "type": "Point"
             }
         },
-        "output": ["Walmart Supercenter", "Ranch Drive", "Milpitas", true]
-    }, 
-    {   
+        "output": ["Walmart Supercenter", "Walmart Supercenter Milpitas", "Walmart Photo Center"]
+    },
+    {
         "test_name": "Loving Hut",
         "test_type": "Restaurant in a large plaza with other restaurants",
         "input": {
@@ -148,8 +148,8 @@
                 "type": "Point"
             }
         },
-        "output": ["Loving Hut", "Barber Lane", "Milpitas", true]
-    }, 
+        "output": ["Loving Hut", "Loving Hut Milpitas Milpitas"]
+    },
     {
         "test_name": "San Francisco Premium Outlets",
         "test_type": "A large outlet with a lot of stores inside",
@@ -159,7 +159,7 @@
                 "type": "Point"
             }
         },
-        "output": ["San Francisco Premium Outlets", "Livermore Outlets Drive", "Livermore", true]
+        "output": ["San Francisco Premium Outlets", "San Francisco Premium Outlets Livermore 3"]
     },
     {
         "test_name": "San Ramon Valley High School",
@@ -170,7 +170,7 @@
                 "type": "Point"
             }
         },
-        "output": ["San Ramon Valley High School", "Danville Boulevard", "San Ramon", true]
+        "output": ["San Ramon Valley High School", "San Ramon Valley High School Danville"]
     },
     {
         "test_name": "Bank of America",
@@ -181,7 +181,7 @@
                 "type": "Point"
             }
         },
-        "output": ["Bank of America", "East Calaveras Boulevard", "Milpitas", true]
+        "output": ["Bank of America", "Bank of America Milpitas", "Bank of America Financial Center"]
     },
     {
         "test_name": "Chevron Milpitas",
@@ -192,7 +192,7 @@
                 "type": "Point"
             }
         },
-        "output": ["Chevron Milpitas", "California Circle", "Milpitas", true]
+        "output": ["Chevron Milpitas", "Chevron Milpitas 3"]
     },
     {
         "test_name": "Costco",
@@ -203,8 +203,8 @@
                 "type": "Point"
             }
         },
-        "output": ["Costco", "Central Avenue", "Richmond", true]
-    }, 
+        "output": ["Costco", "Costco Richmond", "Costco Bakery"]
+    },
     {
         "test_name": "Layang Layang",
         "test_type": "A restaurant in a plaza with Save Marts",
@@ -214,8 +214,8 @@
                 "type": "Point"
             }
         },
-        "output": ["Layang Layang", "West Calaveras Boulevard", "Milpitas", true]
-    }, 
+        "output": ["Layang Layang", "Layang Layang Milpitas", "Layang Layang Malaysian Cuisine"]
+    },
     {
         "test_name": "Kaiser Permanente Pediatrics Building",
         "test_type": "Clinic next to a road",
@@ -225,8 +225,8 @@
                 "type": "Point"
             }
         },
-        "output": ["Kaiser Permanente Pediatrics Building", "Los Coches Street", "Milpitas", true]
-    }, 
+        "output": ["Kaiser Permanente Pediatrics Building", "Kaiser Permanente Pediatrics Building Milpitas 2"]
+    },
     {
         "test_name": "Taco Bell",
         "test_type": "Chain fast-food restaurant",
@@ -236,7 +236,7 @@
                 "type": "Point"
             }
         },
-        "output": ["Taco Bell", "South Park Victoria Drive", "Milpitas", true]
+        "output": ["Taco Bell", "Taco Bell Milpitas"]
     },
 
     {
@@ -248,7 +248,7 @@
                 "type": "Point"
             }
         },
-        "output": ["Northbrook Village Hall", "Cedar Lane", "Northbrook", true]
+        "output": ["Northbrook Village Hall", "Village Hall Northbrook", "Northbrook Village Hall", "northbrook Village hall"]
     },
 
     {
@@ -260,7 +260,7 @@
                 "type": "Point"
             }
         },
-        "output": ["Patisserie Coralie", "Davis Street", "Evanston", true]
+        "output": ["Patisserie Coralie", "Patisserie Coralie Evanston"]
     },
 
     {
@@ -272,7 +272,7 @@
                 "type": "Point"
             }
         },
-        "output": ["Northbrook Public Library", "Cedar Lane", "Northbrook", true]
+        "output": ["Northbrook Public Library", "Northbrook Public Library Northbrook"]
     },
 
     {
@@ -284,7 +284,7 @@
                 "type": "Point"
             }
         },
-        "output": ["Music Institute of Chicago", "Chicago Avenue", "Evanston", true]
+        "output": ["Music Institute of Chicago", "Music Institute of Chicago Evanston"]
     },
 
     {
@@ -296,7 +296,7 @@
                 "type": "Point"
             }
         },
-        "output": ["Town Cleaners", "Chicago Avenue", "Evanston", true]
+        "output": ["Town Cleaners", "Town Cleaners Evanston"]
     },
 
     {
@@ -308,7 +308,7 @@
                 "type": "Point"
             }
         },
-        "output": ["RadioShack", "Church Street", "Evanston", true]
+        "output": ["RadioShack", "RadioShack Evanston"]
     },
 
     {
@@ -320,7 +320,7 @@
                 "type": "Point"
             }
         },
-        "output": ["Squash Blossom", "Gore Creek Drive", "Vail", true]
+        "output": ["Squash Blossom", "Squash Blossom Vail 2"]
     },
 
     {
@@ -332,7 +332,7 @@
                 "type": "Point"
             }
         },
-        "output": ["Garfinkel's", "East Lionshead Circle", "Vail", true]
+        "output": ["Garfinkel's", "Garfinkel's Vail"]
     },
 
     {
@@ -344,7 +344,7 @@
                 "type": "Point"
             }
         },
-        "output": ["Art Institute's Gardens", "South Michigan Avenue", "Chicago", true]
+        "output": ["Art Institute's Gardens", "Art Institute of Chicago Chicago 3", "The Art Institute of Chicago", "Art Institute of Chicago"]
     },
 
     {
@@ -356,116 +356,225 @@
                 "type": "Point"
             }
         },
-        "output": ["Bitcoin of America", "East Monroe Street", "Chicago", true]
+        "output": ["Bitcoin of America", ""]
     },
     {
         "test_name": "Pekoe San Jose",
         "test_type": "Tea shop along major road in strip mall",
         "input": {
             "loc": {
-                "coordinates": [-121.7897235, 37.3146154],
+                "coordinates": [-121.790188997984, 37.3145584994999],
                 "type": "Point"
             }
         },
-        "output": ["Pekoe", "South White Road", "San Jose", true]
+        "output": ["Pekoe", "Pekoe San Jose"]
     },
     {
         "test_name": "99 Ranch Market Fremont",
         "test_type": "Asian Supermarket in strip mall",
         "input": {
             "loc": {
-                "coordinates": [-121.9309053, 37.4881864],
+                "coordinates": [-121.03944, 37.57507],
                 "type": "Point"
             }
         },
-        "output": ["99 Ranch Market", "Warm Springs Boulevard", "Fremont", true]
+        "output": ["99 Ranch Market", "99 Ranch Market Fremont"]
     },
     {
         "test_name": "Mission San Jose High School Fremont",
         "test_type": "Suburban high school in residential area",
         "input": {
             "loc": {
-                "coordinates": [-121.935992, 37.5443018],
+                "coordinates": [-121.93371753373, 37.5441242756684],
                 "type": "Point"
             }
         },
-        "output": ["Mission San Jose High School", "Palm Avenue", "Fremont", true]
+        "output": ["Mission San Jose High School", "Mission San Jose High School Fremont"]
     },
     {
         "test_name": "Giraffe Learning Center",
         "test_type": "after school tutoring place in strip mall",
         "input": {
             "loc": {
-                "coordinates": [-121.9485068, 37.5417558],
+                "coordinates": [-121.946624755859, 37.5413246154785],
                 "type": "Point"
             }
         },
-        "output": ["Giraffe Learning Center", "Driscoll Road", "Fremont", true]
+        "output": ["Giraffe Learning Center", "Giraffe Learning Center Fremont"]
     },
     {
         "test_name": "Costco",
         "test_type": "large wholesale store w/ food court in suburban strip mall",
         "input": {
             "loc": {
-                "coordinates": [-121.9752093, 37.5016114],
+                "coordinates": [-121.973287, 37.501845],
                 "type": "Point"
             }
         },
-        "output": ["Costco", "Pacific Commons Boulevard", "Fremont", true]
+        "output": ["Costco", "Costco Fremont"]
     },
     {
         "test_name": "Ohlone College",
         "test_type": "large community college in suburban area",
         "input": {
             "loc": {
-                "coordinates": [-121.9168524, 37.5298962],
+                "coordinates": [-121.914514, 37.530557],
                 "type": "Point"
             }
         },
-        "output": ["Ohlone College", "Mission Boulevard", "Fremont", true]
+        "output": ["Ohlone College", "Ohlone College Fremont"]
     },
     {
         "test_name": "Holiday Inn San Jose - Silicon Valley",
         "test_type": "large hotel in urban area",
         "input": {
             "loc": {
-                "coordinates": [-121.9099833, 37.361147],
+                "coordinates": [-121.908210754395, 37.3615913391113],
                 "type": "Point"
             }
         },
-        "output": ["Holiday Inn San Jose - Silicon Valley", "North 1st Street", "San Jose", true]
+        "output": ["Holiday Inn San Jose - Silicon Valley", "Holiday Inn San Jose Silicon Valley San Jose", "Holiday Inn"]
     },
     {
         "test_name": "Annie Hair & Beauty",
         "test_type": "barber shop in strip mall",
         "input": {
             "loc": {
-                "coordinates": [-121.9318015, 37.4891932],
+                "coordinates": [-121.9293976, 37.4890594],
                 "type": "Point"
             }
         },
-        "output": ["Annie Hair & Beauty", "Warm Springs Boulevard", "Fremont", true]
+        "output": ["Annie Hair & Beauty", "Annie Hair & Beauty Fremont"]
     },
     {
         "test_name": "Quik Stop",
         "test_type": "gas station near highway onramp",
         "input": {
             "loc": {
-                "coordinates": [-121.9392133, 37.5307587],
+                "coordinates": [-121.99445, 37.5580042422888],
                 "type": "Point"
             }
         },
-        "output": ["Quik Stop", "Washington Boulevard", "Fremont", true]
+        "output": ["Quik Stop", "Quik Stop Fremont"]
     },
     {
         "test_name": "Department of Motor Vehicles",
         "test_type": "DMV office in central area of town",
         "input": {
             "loc": {
-                "coordinates": [-122.0093908, 37.5533451],
+                "coordinates": [-122.00728, 37.55314],
                 "type": "Point"
             }
         },
-        "output": ["Department of Motor Vehicles", "Central Avenue", "Fremont", true]
+        "output": ["Department of Motor Vehicles", "Department of Motor Vehicles Fremont 4"]
     }
+    ,
+
+    {
+        "test_name": "Italian Homemade",
+        "test_type": "Main Street type commercial district italian restaurant",
+        "input": {
+            "loc": {
+                "coordinates": [-122.252844, 37.858179],
+                "type": "Point"
+            }
+        },
+        "output": ["Italian Homemade", "the-italian-homemade-company-berkeley-3"]
+    }
+,
+    {
+        "test_name": "Jong Ga House",
+        "test_type": "Midtown type commercial district korean barbecue",
+        "input": {
+            "loc": {
+                "coordinates": [-122.254948, 37.809082],
+                "type": "Point"
+            }
+        },
+        "output": ["Jong Ga House", "jong-ga-house-oakland"]
+    }
+,
+    {
+        "test_name": "T Pumps",
+        "test_type": "Midtown type main street boba tea shop",
+        "input": {
+            "loc": {
+                "coordinates": [-122.478639, 37.763643],
+                "type": "Point"
+            }
+        },
+        "output": ["Tpumps", "tpumps-san-francisco"]
+    }
+,
+    {
+        "test_name": "Martinez Commons",
+        "test_type": "Urban apartment building",
+        "input": {
+            "loc": {
+                "coordinates": [-122.258042, 37.866615],
+                "type": "Point"
+            }
+        },
+        "output": ["Maximo Martinez Commons"]
+    }
+,
+    {
+        "test_name": "Richmond District House",
+        "test_type": "Flats in medium/low density SF richmond district",
+        "input": {
+            "loc": {
+                "coordinates": [-122.469817, 37.779966],
+                "type": "Point"
+            }
+        },
+        "output": []
+    }
+,
+    {
+        "test_name": "Novato Unified School District",
+        "test_type": "Suburban office for school district",
+        "input": {
+            "loc": {
+                "coordinates": [-122.578671, 38.109495],
+                "type": "Point"
+            }
+        },
+        "output": ["Novato Unified School District"]
+    }
+,
+    {
+        "test_name": "Tamalpais Pediatrics",
+        "test_type": "Pediatrician's office in suburban medical complex",
+        "input": {
+            "loc": {
+                "coordinates": [-122.540262, 37.944070],
+                "type": "Point"
+            }
+        },
+        "output": ["Tamalpais Pediatrics", "tamalpais-pediatrics-larkspur"]
+    }
+,
+    {
+        "test_name": "Novato Library",
+        "test_type": "Library in suburban setting",
+        "input": {
+            "loc": {
+                "coordinates": [-122.580147, 38.107132],
+                "type": "Point"
+            }
+        },
+        "output": ["Novato Library", "novato-library-novato"]
+    }
+,
+    {
+        "test_name": "O'hair Park",
+        "test_type": "Large park adjacent to open lands",
+        "input": {
+            "loc": {
+                "coordinates": [-122.619220, 38.116237],
+                "type": "Point"
+            }
+        },
+        "output": ["O'Hair Park", "o-hair-park-novato"]
+    }   
 ]
