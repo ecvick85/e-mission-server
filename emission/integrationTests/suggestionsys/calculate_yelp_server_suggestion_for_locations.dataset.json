@@ -189,5 +189,165 @@
             }
         },
         "output": "willard-middle-school-berkeley"
+    },
+
+    {
+        "test_name": "Illinois Institute of Art -> Goddess and the Baker",
+        "test_type": "From Chicago-based Illinois Institute of Art to a Cafe",
+        "input": {
+            "start_loc": {
+                "coordinates": [-87.6266294, 41.8854453],
+                "type": "Point"
+            },
+            "end_loc": {
+                "coordinates": [-87.6259549, 41.8814669],
+                "type": "Point"
+            }
+        },
+        "output": "argo-tea"
+    },
+
+    {
+        "test_name": "Wood Oaks Junior High School -> California Pizza Kitchen",
+        "test_type": "From a middle school to California Pizza Kitchen in a Shopping Mall",
+        "input": {
+            "start_loc": {
+                "coordinates": [-87.8807004, 42.1289512],
+                "type": "Point"
+            },
+            "end_loc": {
+                "coordinates": [-87.8173353, 42.1506798],
+                "type": "Point"
+            }
+        },
+        "output": "butterfields"
+    },
+
+    {
+        "test_name": "Davis CTA Station -> Lou Malnati's",
+        "test_type": "From a CTA Station to the best deep dish restaurant in the Chicagoland area",
+        "input": {
+            "start_loc": {
+                "coordinates": [-87.6834458, 42.0478385],
+                "type": "Point"
+            },
+            "end_loc": {
+                "coordinates": [-87.6819721, 42.0513754],
+                "type": "Point"
+            }
+        },
+        "output": "papa-johns"
+    },
+
+    {
+        "test_name": "CVS Pharmacy -> Bangers and Lace",
+        "test_type": "From CVS Pharmacy to a bar",
+        "input": {
+            "start_loc": {
+                "coordinates": [-87.6815653, 42.0489605],
+                "type": "Point"
+            },
+            "end_loc": {
+                "coordinates": [-87.6824266, 42.0453847],
+                "type": "Point"
+            }
+        },
+        "output": "globe-cafe-and-bar"
+    },
+
+    {
+        "test_name": "Gioradano's -> Sheridan & Emerson Bus Stop",
+        "test_type": "From a pizza place to a bus stop in Evanston near Northwestern's campus",
+        "input": {
+            "start_loc": {
+                "coordinates": [-87.6795324, 42.0460200],
+                "type": "Point"
+            },
+            "end_loc": {
+                "coordinates": [-87.6770346, 42.0521259],
+                "type": "Point"
+            }
+        },
+        "output": "chicago-&-clark"
+    },
+
+    {
+        "test_name": "Apartment Building -> LA Fitness",
+        "test_type": "From a randomly chosen apartment to an LA Fitness in downtown Evanston",
+        "input": {
+            "start_loc": {
+                "coordinates": [-87.6823290, 42.0498415],
+                "type": "Point"
+            },
+            "end_loc": {
+                "coordinates": [-87.6821221, 42.0478200],
+                "type": "Point"
+            }
+        },
+        "output": "evanston-athletic-club"
+    },
+
+    {
+        "test_name": "Walgreens -> Potbelly's Sandwich Shop",
+        "test_type": "From a pharmacy to one of the best fast food sandwich shops out there",
+        "input": {
+            "start_loc": {
+                "coordinates": [-87.6247427, 41.8830264],
+                "type": "Point"
+            },
+            "end_loc": {
+                "coordinates": [-87.6246959, 41.8794128],
+                "type": "Point"
+            }
+        },
+        "output": "subway"
+    },
+
+    {
+        "test_name": "Chicago Architecture Foundation -> Chase Bank Northbrook",
+        "test_type": "From an architecture foundation in downtown Chicago to a Chase in the north suburbs",
+        "input": {
+            "start_loc": {
+                "coordinates": [-87.6247942, 41.8784582],
+                "type": "Point"
+            },
+            "end_loc": {
+                "coordinates": [-87.8264886, 42.1307608],
+                "type": "Point"
+            }
+        },
+        "output": "bank"
+    },
+
+    {
+        "test_name": "Chase Bank Northbrook -> Trader Joe's in Lincoln Park",
+        "test_type": "From a Chase Bank in the North Suburbs to a grocery store in Chicago",
+        "input": {
+            "start_loc": {
+                "coordinates": [-87.8264886, 42.1307608],
+                "type": "Point"
+            },
+            "end_loc": {
+                "coordinates": [-87.6549993, 41.9145533],
+                "type": "Point"
+            }
+        },
+        "output": "sunset-foods"
+    },
+
+    {
+        "test_name": "Trader Joe's in Lincoln Park -> The end of my cul-de-sac in Northbrook",
+        "test_type": "From a Trader Joe's in Chicago to near my home",
+        "input": {
+            "start_loc": {
+                "coordinates": [-87.6549993, 41.9145533],
+                "type": "Point"
+            },
+            "end_loc": {
+                "coordinates": [-87.8661422, 42.1261937],
+                "type": "Point"
+            }
+        },
+        "output": "not-a-business"
     }
 ]
